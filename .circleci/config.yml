@@ -8,7 +8,7 @@ jobs:
        - image: circleci/ruby:2.7.1-node-browsers
        - image: circleci/postgres:11.2
 
-    #application directory
+    #application directory change it with your application directory name
     working_directory: ~/wheel
     environment:
       TZ: "/usr/share/zoneinfo/America/New_York"
